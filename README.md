@@ -20,3 +20,4 @@ touch on tag on the bottom: show all files having this tag
 
 ActionBar: search for tags
 
+![Screenshot](http://i.imgur.com/BIYONyU.png?1)
