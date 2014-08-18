@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+ 
+    <TableRow 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="0dp">
+        
+        <ImageView 
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:height="64dp"
+            android:src="@drawable/add_tag"
+            android:scaleType="center"
+            android:background="#FFFFBB33"
+            android:layout_span="1"/>
+        
+    </TableRow>
+    
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dip" >
+ 
+        <TextView
+            android:text="@string/tag_name"
+            android:layout_gravity="center_vertical"/>
+ 
+        <EditText
+        	android:id="@+id/new_tag_name_edittext"
+        	android:inputType="text"
+        	android:layout_width="0dp"
+        	android:layout_weight="1"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="16dp"
+        	android:layout_marginLeft="4dp"
+        	android:layout_marginRight="4dp"
+        	android:layout_marginBottom="4dp" />
+    </TableRow>
+    
+    <TableRow 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="1dip" >
+        
+        <TextView
+            android:text="@string/tag_color"
+            android:layout_gravity="center_vertical"/>
+        
+        <Button 
+            android:id="@+id/new_tag_color_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:layout_gravity="center_horizontal">
+        </Button>    
+    </TableRow>
+</TableLayout>

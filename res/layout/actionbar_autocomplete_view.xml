@@ -1,0 +1,7 @@
+<AutoCompleteTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    	android:id="@+id/autocompleteview"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:imeOptions="actionDone"   
+    	android:inputType="text"
+/>

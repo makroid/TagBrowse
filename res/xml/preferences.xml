@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+  <EditTextPreference
+      android:key="startDir"
+      android:defaultValue="/"
+      android:summary="@string/pref_start_dir_sum"
+      android:title="@string/pref_start_dir_title"/>  
+  <EditTextPreference
+      android:key="saveFile"
+      android:defaultValue="/sdcard/tagbrowse.json"
+      android:summary="@string/pref_save_file_sum"
+      android:title="@string/pref_save_file_title"/>
+</PreferenceScreen>
